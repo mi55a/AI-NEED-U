@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  margin: 0;
+  
+}
+
+.column {
+  float: left;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#joy {
+  width: 50px;
+    height: 50px;
+    margin: 25px;
+    border: 5px solid black
+}
+#timniy {
+  width: 50px;
+    height: 50px;
+    margin: 25px;
+    border: 5px solid black
+}
